@@ -1,0 +1,17 @@
+@use "../../styles/partials/variables" as *;
+
+.home {
+  height: 80vh;
+  background-color: $clr-100;
+
+  &__title {
+    padding: 1em 0 0 1em;
+  }
+  &__text {
+    padding: 1em;
+  }
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+}

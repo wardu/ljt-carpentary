@@ -1,0 +1,29 @@
+@use "../../styles/partials/variables" as *;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $clr-100;
+
+  &__logo {
+    width: 30%;
+    & img {
+      width: 100%;
+      padding: 0.5em;
+    }
+  }
+
+  &__links {
+    width: 60%;
+    & ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  & a {
+    color: $clr-700;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+}

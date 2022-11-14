@@ -1,0 +1,54 @@
+@use "../../styles/partials/variables" as *;
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+
+  &__container {
+    margin: 0 auto;
+    max-width: 40em;
+    width: 100%;
+  }
+}
+
+.form {
+  &__input {
+    margin-bottom: 2em;
+
+    &-box {
+      width: 100%;
+      padding: 1em 2em;
+      border-radius: 10px;
+      border: 1px solid $clr-700;
+      background: $clr-100;
+      font-size: 1em;
+      color: $clr-500;
+      outline: none;
+      resize: none;
+
+      &:focus {
+        border-color: $clr-300;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  &-btn {
+    text-align: center;
+    font-size: 1em;
+    border-radius: 6px;
+    padding: 1em 2em;
+    border: none;
+    font-weight: 600;
+    background-color: $clr-500;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+      background-color: $clr-200;
+      color: $clr-600;
+    }
+  }
+}
