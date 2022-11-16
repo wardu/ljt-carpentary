@@ -2,6 +2,7 @@ import Hero from "../../components/Hero/Hero";
 import Projects from "../../components/Projects/Projects";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
+import Offers from "../../components/Offers/Offers";
 
 import "./HomePage.scss";
 
@@ -28,6 +29,7 @@ const HomePage = () => {
         <hr />
         <Projects />
         <Contact />
+        <Offers />
       </div>
       <Footer />
     </section>

@@ -5,13 +5,15 @@
   justify-content: center;
 
   &__icon {
-    width: 100%;
+    width: 80%;
     height: auto;
     object-fit: cover;
     margin-bottom: 2em;
+    margin-left: 0.7em;
   }
 
   &__side {
+    width: 31%;
     margin-top: 0.6em;
     background-color: $clr-600;
     display: flex;
@@ -21,7 +23,6 @@
     & img {
       margin: 0 auto;
       padding-bottom: 2em;
-      padding-left: 1em;
       width: 80%;
     }
     & h2 {
