@@ -1,0 +1,33 @@
+@use "../../styles/partials/variables" as *;
+
+.about {
+  &__head {
+    padding-top: 3em;
+    width: 90%;
+    margin: 0 auto;
+
+    &-img {
+      padding: 1em;
+      & img {
+        padding: 1em;
+        border-top-left-radius: 80px 80px;
+        box-shadow: 10px 4px 10px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+    &-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__body {
+    padding-top: 3em;
+    width: 90%;
+    margin: 0 auto;
+
+    &-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
