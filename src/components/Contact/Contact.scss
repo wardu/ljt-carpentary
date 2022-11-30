@@ -4,7 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4em;
+  padding: 1em 3em 1em 3em;
+
+  &__title {
+    font-size: 2em;
+    color: $clr-700;
+    text-align: center;
+    padding: 0 auto;
+    margin: 1em 0;
+    background-color: $clr-200;
+  }
 
   &__container {
     margin: 0 auto;
@@ -14,6 +23,10 @@
 }
 
 .form {
+  &__end {
+    margin-bottom: 1em;
+  }
+
   &__input {
     margin-bottom: 2em;
 
@@ -36,13 +49,13 @@
   }
   &-btn {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.4em;
     border-radius: 6px;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     border: none;
     font-weight: 600;
     background-color: $clr-500;
-    color: white;
+    color: $clr-200;
     cursor: pointer;
 
     &:hover {

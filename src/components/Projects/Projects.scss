@@ -12,7 +12,6 @@
   }
 
   &__side {
-    // width: 31%;
     margin-top: 0.6em;
     background-color: $clr-600;
     display: flex;
@@ -30,7 +29,6 @@
     }
   }
   &__title {
-    // width: 100vw;
     color: $clr-200;
     padding: 0.5em 0 0.5em 1em;
   }
@@ -43,7 +41,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0.7em;
-    box-shadow: 2px 2px 2px $clr-700;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
 
     & img {
       width: 200px;
