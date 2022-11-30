@@ -1,9 +1,8 @@
-import { AiOutlineSafety } from "react-icons/ai";
-
-import room from "../../assets/images/wooden-room.JPG";
-import smoothWood from "../../assets/images/smooth-wood.JPG";
-import sawDust from "../../assets/images/sawdust.JPG";
-import chas from "../../assets/images/chas.png";
+import balconyDecking from "../../assets/images/project-photos/finished-decking-2.jpg";
+import treehouse from "../../assets/images/project-photos/treehouse.jpg";
+import fence from "../../assets/images/project-photos/fence-after.jpg";
+import wardrobe from "../../assets/images/project-photos/wardrobe1.jpg";
+import staircase from "../../assets/images/project-photos/staircase.jpg";
 
 import "./Projects.scss";
 
@@ -11,39 +10,52 @@ const Projects = () => {
   return (
     <section className='projects'>
       <div className='projects__side'>
-        <h2 className='projects__title'>View recent projects:</h2>
-        <div className='projects__icons'>
-          <img src={chas} alt='Chas Logo' />
-          <h2>Fully Insured</h2>
-          <AiOutlineSafety className='projects__icon' />
-        </div>
+        <h2 className='projects__title'>Recent Projects...</h2>
       </div>
       <div className='projects__container'>
         <article className='projects__card'>
-          <h3>Timber Door Frames</h3>
+          <h3>Balcony Decking</h3>
           <img
             className='projects__card-image'
-            src={room}
-            alt='A wooden room'
+            src={balconyDecking}
+            alt='A wooden Decking'
           ></img>
         </article>
         <article className='projects__card'>
-          <h3>Pergola</h3>
+          <h3>Treehouse</h3>
           <img
             className='projects__card-image'
-            src={smoothWood}
-            alt='Some smooth wood'
+            src={treehouse}
+            alt='Wooden treehouse'
           ></img>
         </article>
         <article className='projects__card'>
-          <h3>Dormer Window</h3>
+          <h3>Fencing</h3>
           <img
             className='projects__card-image'
-            src={sawDust}
-            alt='Lots of sawdust'
+            src={fence}
+            alt='New fence'
+          ></img>
+        </article>
+        <article className='projects__card'>
+          <h3>Built-in Storage</h3>
+          <img
+            className='projects__card-image'
+            src={wardrobe}
+            alt='Built-in wardobe'
+          ></img>
+        </article>
+        <article className='projects__card'>
+          <h3>Oak Staircase</h3>
+          <img
+            className='projects__card-image'
+            src={staircase}
+            alt='Oak staircase'
           ></img>
         </article>
       </div>
+      <hr />
+      <hr />
     </section>
   );
 };

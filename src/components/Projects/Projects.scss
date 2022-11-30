@@ -1,7 +1,6 @@
 @use "../../styles/partials/variables" as *;
 
 .projects {
-  display: flex;
   justify-content: center;
 
   &__icon {
@@ -13,7 +12,7 @@
   }
 
   &__side {
-    width: 31%;
+    // width: 31%;
     margin-top: 0.6em;
     background-color: $clr-600;
     display: flex;
