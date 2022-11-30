@@ -9,7 +9,7 @@ const About = () => {
       <section className='about__head'>
         <div className='about__head-container'>
           <div className='about__head-text'>
-            <h2 className='about__head-title'>A Little Bit About Me...</h2>
+            <h2 className='about__head-title'>A Little Bit About Us...</h2>
           </div>
           <div className='about__head-img'>
             <img src={profile} alt='profile LJT Carpentry' />
@@ -19,12 +19,12 @@ const About = () => {
       <section className='about__body'>
         <div className='about__body-container'>
           <p className='about__body-text'>
-            Hi, I'm Lloyd of LJT Carpentry. I have been perfecting my craft for
-            over 15 years. I pride myself in producing high-end carpentry,
-            cabinet-making projects and home improvements. I have passion for my
-            work and take pride in my workmanship. I am a bit of a perfectionist
-            and will not leave a job until it is completed to the highest
-            standard.
+            LJT Carpentry is lead by myself, Lloyd. I have been perfecting my
+            craft for over 15 years. I pride myself in producing high-end
+            carpentry, cabinet-making projects and home improvements. I have
+            passion for my work and take pride in my workmanship. I am a bit of
+            a perfectionist and will not leave a job until it is completed to
+            the highest standard.
           </p>
           <p>
             I will always go the extra mile to ensure that my customers are

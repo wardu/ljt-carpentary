@@ -1,0 +1,29 @@
+@use "../../styles/partials/variables" as *;
+
+.offers {
+  &__title {
+    font-size: 2em;
+    color: $clr-700;
+    text-align: center;
+    padding: 0 auto;
+    margin: 1em 0;
+    background-color: $clr-200;
+  }
+  &__card {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+
+    &-title {
+      display: flex;
+      justify-content: center;
+      color: $clr-700;
+      padding: 0.2em;
+      margin: 0.2em;
+      background-color: $clr-200;
+      border-radius: 50px;
+      // shadow
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+}
